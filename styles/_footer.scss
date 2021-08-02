@@ -1,0 +1,37 @@
+// F O O T E R
+
+.footer {
+  background-color: $bgcolor;
+  padding-top: 15px;
+  .footer__contenedor {
+    text-align: center;
+  }
+  .title__footer {
+    color: $textcolor;
+  }
+  a {
+    text-decoration: none;
+    color: $textcolorblue;
+    span {
+      color: $textcolor;
+    }
+  }
+  a:hover {
+    color: $textcolor;
+  }
+  span:hover {
+    color: $textcolorblue;
+  }
+  p {
+    color: $textcolorblue;
+  }
+  .imagen__ws {
+    @include sizes(20px, 20px);
+  }
+  .imagen__mail {
+    @include sizes(20px, 20px);
+  }
+  .imagen__linkedin {
+    @include sizes(20px, 20px);
+  }
+}
