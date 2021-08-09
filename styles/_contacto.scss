@@ -59,6 +59,13 @@
     margin-top: 49px;
     margin-left: -45px;
   }
+
+  .imagen__github {
+    @include sizes(20px, 20px);
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -40px;
+  }
 }
 
 // C O N T A C T O  F O R M U L A R I O

@@ -47,6 +47,20 @@
       transform: translate(150px);
     }
   }
+  .link__curriculo {
+    text-align: center;
+    margin-top: 10px;
+    a {
+      color: black;
+      font-weight: $textnegrita;
+      font-family: $textfuente;
+      text-decoration: none;
+      font-size: 1.2rem;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+  }
 }
 
 // S O B R E  M I  S E C T I O N

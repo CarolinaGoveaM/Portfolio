@@ -120,6 +120,17 @@ body {
 @keyframes animacionpmainsobremi {
   0% {
     transform: translate(150px); } }
+  .main__sobremi .link__curriculo {
+    text-align: center;
+    margin-top: 10px; }
+    .main__sobremi .link__curriculo a {
+      color: black;
+      font-weight: bold;
+      font-family: "Indie Flower", cursive;
+      text-decoration: none;
+      font-size: 1.2rem; }
+    .main__sobremi .link__curriculo a:hover {
+      text-decoration: underline; }
 
 .section__sobremi {
   margin-bottom: 15px; }
@@ -304,6 +315,13 @@ body {
   margin-top: 49px;
   margin-left: -45px; }
 
+.main__contacto .imagen__github {
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  margin-top: 70px;
+  margin-left: -40px; }
+
 .formulario__contacto label {
   font-weight: bold; }
 
@@ -325,7 +343,8 @@ body {
 
 .footer {
   background-color: #212529;
-  padding-top: 15px; }
+  padding-top: 15px;
+  padding-bottom: 15px; }
   .footer .footer__contenedor {
     text-align: center; }
   .footer .title__footer {
@@ -341,12 +360,6 @@ body {
     color: #93dff0; }
   .footer p {
     color: #93dff0; }
-  .footer .imagen__ws {
-    height: 20px;
-    width: 20px; }
-  .footer .imagen__mail {
-    height: 20px;
-    width: 20px; }
-  .footer .imagen__linkedin {
+  .footer .imagen__ws, .footer .imagen__mail, .footer .imagen__linkedin, .footer .imagen__github {
     height: 20px;
     width: 20px; }

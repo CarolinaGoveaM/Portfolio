@@ -3,6 +3,7 @@
 .footer {
   background-color: $bgcolor;
   padding-top: 15px;
+  padding-bottom: 15px;
   .footer__contenedor {
     text-align: center;
   }
@@ -25,13 +26,7 @@
   p {
     color: $textcolorblue;
   }
-  .imagen__ws {
-    @include sizes(20px, 20px);
-  }
-  .imagen__mail {
-    @include sizes(20px, 20px);
-  }
-  .imagen__linkedin {
+  .imagen__ws, .imagen__mail, .imagen__linkedin, .imagen__github {
     @include sizes(20px, 20px);
   }
 }
