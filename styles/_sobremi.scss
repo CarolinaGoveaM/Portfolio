@@ -3,11 +3,25 @@
 .main__sobremi {
   padding-top: 30px;
   padding-bottom: 30px;
+  img {
+    animation-name: animacionimgmainsobremi;
+    animation-duration: 1s;
+    transition: 1s;
+    box-shadow: 10px 10px 15px black;
+  }
+  @keyframes animacionimgmainsobremi {
+    0% {
+      transform: translate(-130px);
+    }
+  }
+  img:hover {
+    transform: scale(1.1, 1.1);
+  }
   .title__primer--sobremi {
     text-align: center;
     font-weight: $textnegrita;
     margin-bottom: 15px;
-    margin-top: 15px;
+    margin-top: 35px;
     font-family: $textfuente;
     animation-name: animacionh2mainsobremi;
     animation-duration: 1s;
@@ -20,19 +34,6 @@
   .title__primer--sobremi:hover {
     color: black;
     text-decoration: underline;
-  }
-  img {
-    animation-name: animacionimgmainsobremi;
-    animation-duration: 1s;
-    transition: 1s;
-  }
-  @keyframes animacionimgmainsobremi {
-    0% {
-      transform: translate(-130px);
-    }
-  }
-  img:hover {
-    transform: scale(1.1, 1.1);
   }
   p {
     margin: auto;

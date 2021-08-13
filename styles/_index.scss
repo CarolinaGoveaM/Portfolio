@@ -18,6 +18,8 @@
     transition: 1s;
     animation-name: animacionimgmainindex;
     animation-duration: 1s;
+    box-shadow: 10px 10px 15px black;
+    border: 2px solid black;
   }
   @keyframes animacionimgmainindex {
     0% {
