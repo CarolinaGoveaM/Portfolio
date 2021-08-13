@@ -1,2 +1,2 @@
-# Portfolio
-Portfolio Web Developer
+# Project - Portfolio
+Portfolio, final project of the Web Development course at Coder House
